@@ -1,6 +1,4 @@
 const {task,src,dest,watch,series,parallel} = require('gulp');
-const server = require('gulp-webserver');
-const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 // All paths
