@@ -4,12 +4,10 @@
   "description": "Very basic ",
   "main": "index.js",
   "dependencies": {
-    "browser-sync": "^3.0.2",
-    "gulp-webserver": "^0.9.1"
+    "browser-sync": "^3.0.2"
   },
   "devDependencies": {
     "gulp": "^5.0.0",
-    "gulp-concat": "^2.6.1",
     "gulp-sass": "^5.1.0"
   },
   "scripts": {
