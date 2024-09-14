@@ -14,27 +14,41 @@
        url('../fonts/PressStart2P-Regular.woff') format('woff'), */
   src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
 }
-
+body{
+  margin:0;
+  padding:0;
+}
 .wrapper{
 
 }
 .main-menu{
-display:inline-block;
-width: 60vw;
-height: 60px;
-outline:1px solid green;
+  display: inline-block;
+  font-family: "PressStart2P";
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 88px;
+  border: 1px solid fuchsia;
 }
 .ul-m{
   display:inline-block;
 }
 li.inl-m {
-  display:inline-block;
-  font-family:"PressStart2P";
+  display: inline-block;
+  font-family: "PressStart2P";
+  font-size: 14px;
   padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
+  margin: 4px 24px 10px 0px;
 }
-.first section{
-
+li:hover {
+  display: inline-block;
+  font-family: "PressStart2P";
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  margin: 4px 24px 10px 0px;
+  backgraund:rgba(255,0,0,0.9);
+}
+.first{
+  background-color: red;
 }
 .half30{
   outline:1px solid black;
@@ -45,38 +59,38 @@ li.inl-m {
   margin-left: 11%;
 }
 .half70{
-  outline:1px solid magenta;
-  width:70vw;
-  height: 100vh;
-  padding-top: 20px
+  display: inline-block;
+    position: absolute;
+    width: 521px;
+    height: 112vh;
+    margin-top: 8px;
+    margin-left: 140px;
+    outline:10px solid black;
+}
+.vroom{
+
+}
+h2{
+  font-family: "PressStart2P";
+  font-size: 24px;
+  margin: 121px 24px 10px 8px;
+}
+h3{
+  font-family: "PressStart2P";
+  font-size: 24px;
+  margin: 14px 24px 10px 8px;
+}
+.vdate{
+
+}
+.varrow{
+display: inline-block;
+text-align: center;
+margin-left: 88px;
 }
 .wrapper{
 
 }
 .main-menu{
 
-}
-.ul-m{
-  display:block;
-}
-inl-m{
-  display:inline-block;
-}
-.first section{
-display:inline-block;
-}
-.half30{
-  display:inline-block;
-  outline:1px solid black;
-  width: 500px;
-  height: 100vh;
-  margin-top: 6%;
-  margin-left: 11%;
-}
-.half70{
-  display:inline-block;
-  outline:1px solid red;
-  width:500px;
-  height: 100vh;
-  padding-top: 20px
 }
