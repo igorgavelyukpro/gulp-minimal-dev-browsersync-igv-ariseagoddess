@@ -1,0 +1,30 @@
+.wrapper{
+
+}
+.main-menu{
+
+}
+.ul-m{
+  display:block;
+}
+inl-m{
+  display:inline-block;
+}
+.first section{
+display:inline-block;
+}
+.half30{
+  display:inline-block;
+  outline:1px solid black;
+  width: 500px;
+  height: 100vh;
+  margin-top: 6%;
+  margin-left: 11%;
+}
+.half70{
+  display:inline-block;
+  outline:1px solid red;
+  width:500px;
+  height: 100vh;
+  padding-top: 20px
+}
