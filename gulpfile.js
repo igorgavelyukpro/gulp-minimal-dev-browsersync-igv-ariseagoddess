@@ -12,7 +12,7 @@ const paths = {
   fonts_web: {src: ['./src/webfonts/**/*'], dest: './dist/webfonts/'},
   styles: {src: ['./src/scss/**/*.scss'], dest: './dist/scss/'},
   scripts: {src: ['./src/scripts/*.js'],dest: './dist/scripts/'},
-  serverdir:"./dist",
+  serverdir:"./src",
 };
 function mybuild(){
    series(parallel(copyHtml,copySass,copyCss,copyIndex,copyImages,copyScripts));
@@ -54,14 +54,14 @@ function copyImages() {
 }
 // Watch for file modification at specific paths and run respective tasks accordingly
 function watcher() {
-  watch(paths.index.src,series(copyIndex,browserSyncReload))
-  watch(paths.html.src,series(copyHtml,browserSyncReload))
-  watch(paths.css.src,series(copyCss,browserSyncReload))
-  watch(paths.images.src,series(copyImages,browserSyncReload))
-  // watch(paths.sass.src,series(copySass,browserSyncReload))
-  // watch(paths.fonts_ttf.src,series(copyFontsTtf,browserSyncReload))
-  // watch(paths.fonts_web.src,series(copyFontsWeb,browserSyncReload))
-  watch(paths.scripts.src,series(copyScripts,browserSyncReload))
+  watch(paths.index.src,series(copyIndex,series(browserSyncReload)))
+  watch(paths.html.src,series(copyHtml,series(browserSyncReload)))
+  watch(paths.css.src,series(copyCss,series(browserSyncReload)))
+  watch(paths.images.src,series(copyImages,series(browserSyncReload)))
+  // watch(paths.sass.src,series(copySass,series(browserSyncReload)))
+  // watch(paths.fonts_ttf.src,series(copyFontsTtf,series(browserSyncReload)))
+  // watch(paths.fonts_web.src,series(copyFontsWeb,series(browserSyncReload)))
+  watch(paths.scripts.src,series(copyScripts,series(browserSyncReload)))
   browserSyncInit()
 }
 function browserSyncReload(done) {

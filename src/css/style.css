@@ -1,3 +1,55 @@
+@font-face {
+  font-family: "Sectar";
+  src: url('../fonts/Sectar.eot');
+  src: url('../fonts/Sectar.eot') format('embedded-opentype'),
+       url('../fonts/Sectar.woff2') format('woff2'),
+       url('../fonts/Sectar.woff') format('woff'),
+       url('../fonts/Sectar.ttf') format('truetype');
+}
+@font-face {
+  font-family: "PressStart2P";
+  /* src: url('../fonts/PressStart2P-Regular.eot');
+  src: url('../fonts/PressStart2P-Regular.eot') format('embedded-opentype'),
+       url('../fonts/PressStart2P-Regular.woff2') format('woff2'),
+       url('../fonts/PressStart2P-Regular.woff') format('woff'), */
+  src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
+.wrapper{
+
+}
+.main-menu{
+display:inline-block;
+width: 60vw;
+height: 60px;
+outline:1px solid green;
+}
+.ul-m{
+  display:inline-block;
+}
+li.inl-m {
+  display:inline-block;
+  font-family:"PressStart2P";
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+.first section{
+
+}
+.half30{
+  outline:1px solid black;
+  width:30vw;
+  height: 100vh;
+  width: 30vw;
+  margin-top: 6%;
+  margin-left: 11%;
+}
+.half70{
+  outline:1px solid magenta;
+  width:70vw;
+  height: 100vh;
+  padding-top: 20px
+}
 .wrapper{
 
 }
