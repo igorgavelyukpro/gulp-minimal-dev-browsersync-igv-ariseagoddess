@@ -5,13 +5,13 @@ const browserSync = require('browser-sync').create();
 const paths = {
   index: {src: ['./src/*.html'], dest: './dist/' },
   html: {src: ['./src/html/*.html'], dest: './dist/html/'},
-  images: {src: ['./src/images/**/**/*'],dest: './dist/images/'},
-  css: {src: ['./src/css/**/*.css'], dest: './dist/css/'},
-  sass: {src: ['./src/sass/**/*.scss'], dest: './src/css/'},
+  images: {src: ['./src/images/*'],dest: './dist/images/'},
+  css: {src: ['./src/css/*.css'], dest: './dist/css/'},
+  // sass: {src: ['./src/sass/**/*.scss'], dest: './src/css/'},
   fonts_ttf: {src: ['./src/fonts/**/*'], dest: './dist/fonts/'},
   fonts_web: {src: ['./src/webfonts/**/*'], dest: './dist/webfonts/'},
   styles: {src: ['./src/scss/**/*.scss'], dest: './dist/scss/'},
-  scripts: {src: ['./src/scripts/**/*.js'],dest: './dist/scripts/'},
+  scripts: {src: ['./src/scripts/*.js'],dest: './dist/scripts/'},
   serverdir:"./dist",
 };
 function mybuild(){
@@ -37,8 +37,8 @@ function copyHtml() {
   .pipe(dest(paths.html.dest));
 }
 function copySass() {
-  return src(paths.sass.src)
-  .pipe(dest(paths.sass.dest));
+  // return src(paths.sass.src)
+  // .pipe(dest(paths.sass.dest));
 }
 function copyCss() {
   return src(paths.css.src)
@@ -56,11 +56,11 @@ function copyImages() {
 function watcher() {
   watch(paths.index.src,series(copyIndex,browserSyncReload))
   watch(paths.html.src,series(copyHtml,browserSyncReload))
+  watch(paths.css.src,series(copyCss,browserSyncReload))
   watch(paths.images.src,series(copyImages,browserSyncReload))
-  watch(paths.sass.src,series(copySass,browserSyncReload))
-  watch(paths.styles.src,series(copyCss,browserSyncReload))
-  watch(paths.fonts_ttf.src,series(copyFontsTtf,browserSyncReload))
-  watch(paths.fonts_web.src,series(copyFontsWeb,browserSyncReload))
+  // watch(paths.sass.src,series(copySass,browserSyncReload))
+  // watch(paths.fonts_ttf.src,series(copyFontsTtf,browserSyncReload))
+  // watch(paths.fonts_web.src,series(copyFontsWeb,browserSyncReload))
   watch(paths.scripts.src,series(copyScripts,browserSyncReload))
   browserSyncInit()
 }
