@@ -33,7 +33,7 @@ body{
   padding: 10px 10px 10px 10px;
   margin: 6px 0px 0px 94px;
   /* margin: 0px 0px 0px 88px; */
-  border: 1px solid fuchsia;
+  /* border: 1px solid fuchsia; */
 }
 .ul-m{
   display:inline-block;
@@ -72,7 +72,7 @@ li:hover {
 .half30{
     position: absolute;
     float: right;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     margin-top: 6%;
     margin-left: 11%;
     top: 100px;
@@ -85,26 +85,36 @@ li:hover {
     height: 430px;
     margin-top: 79px;
     margin-left: 140px;
-    outline: 10px solid black;
+    /* outline: 10px solid black; */
 }
-.vroom{
 
+.big-logo,.big-date{
+  font-family: "Sectar";
+  color:white;
 }
-h1, h2, h3, h5{
+.big-logo{
+  font-size:60px;
+}
+.big-date{
+  font-size:50px;
+  margin-left:25px;
+}
+
+h1, h2, h3{
   color: white;
 }
-h4{
+h4, h5{
   color: black;
 }
 h2{
   font-family: "PressStart2P";
   font-size: 24px;
-  margin: 121px 24px 18px 8px;
+  margin: 106px 24px 11px 8px;
 }
 h3{
   font-family: "PressStart2P";
   font-size: 24px;
-  margin: 14px 24px 10px 8px;
+  margin: 28px 24px 10px 8px
 }
 .vdate{
 
@@ -132,22 +142,110 @@ height: 442px;
 }
 section{
   width: auto;
-  height: 700px;
+  height: 666px;
   border: 5px solid green;
 }
 .second{
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
 }
-half21{
-
+.half21{
+  flex-basis: 60%;
+  box-sizing: border-box;
+  outline:5px solid red;
 }
-iframe , object, embed{
+.second-iframe , .second-object, .second-embed{
   width: 625px;
-    height: 373px;
-    margin-top: 127px;
-    margin-left: 148px;
+  height: 373px;
+  margin-top: 127px;
+  margin-left: 148px;
 }
-half22{
-
+.third-iframe , .third-object, .third-embed{
+  width: 100px;
+  height: 100px;
+  /* margin-top: 127px;
+  margin-left: 148px; */
+}
+.half22{
+  /* padding: 20px; */
+  /* outline:5px solid red; */
+  flex-basis: 30%;
+  box-sizing: border-box;
+  width: 555px;
+  height: 430px;
+  margin-top: 71px;
+  margin-left: 53px;
+}
+.letsride{
+  font-family: "PressStart2P";
+  font-size: 33px;
+  margin-bottom: 33px;
+  margin-top: 43px;
+}
+.heading22{
+  font-family: "PressStart2P";
+  font-size:16px;
+  font-style:normal;
+  line-height: 18px;
+}
+.content22{
+  font-family: "PressStart2P";
+  font-size:12px;
+  line-height: 22px;
+}
+.inline22{
+  margin:0 auto;
+  width: 80vw;
+}
+.third{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.half31{
+  outline: 5px solid red;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    margin:5px;
+    margin-top: 33px;
+    margin-left: 149px;
+}
+.half32{
+  outline:5px solid green;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  width: 400px;
+  height: 600px;
+  margin:5px;
+}
+.inline33{
+  margin:0 auto;
+  width: 80vw;
+}
+.vroomsection3heading{
+  font-family: "PressStart2P";
+  font-size: 33px;
+  margin-bottom: 33px;
+  margin-top: 43px;
+}
+.heading33{
+  font-family: "PressStart2P";
+  font-size:16px;
+  font-style:normal;
+  line-height: 18px;
+}
+.content33{
+  font-family: "PressStart2P";
+  font-size:12px;
+  line-height: 22px;
+}
+.small-iframe{
+  height: 150px;
+  width: 373px;
+}
+.iframe33{
+  position:absolute;
 }
