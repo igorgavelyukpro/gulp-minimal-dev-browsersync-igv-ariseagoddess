@@ -162,7 +162,7 @@ section{
   margin-left: 148px;
 }
 .third-iframe , .third-object, .third-embed{
-  width: 100px;
+  width: 200px;
   height: 100px;
   /* margin-top: 127px;
   margin-left: 148px; */
@@ -242,10 +242,14 @@ section{
   font-size:12px;
   line-height: 22px;
 }
-.small-iframe{
-  height: 150px;
-  width: 373px;
+.numbered,.numbered-song{
+  display:inline-block;
+  height: 100px;
 }
-.iframe33{
-  position:absolute;
+.numbered{
+  width: 100px;
+
+}
+.numbered-song{
+  width: 220px;
 }
