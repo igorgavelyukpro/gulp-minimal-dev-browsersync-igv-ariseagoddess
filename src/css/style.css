@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: "Sectar";
   src: url('../fonts/Sectar.eot');
@@ -17,16 +19,20 @@
 body{
   margin:0;
   padding:0;
+  background-color:#0E021D;
 }
 .wrapper{
 
 }
 .main-menu{
+  background-color:#0E021D;
+  color:white;
   display: inline-block;
   font-family: "PressStart2P";
   font-size: 14px;
   padding: 10px 10px 10px 10px;
-  margin: 0px 0px 0px 88px;
+  margin: 6px 0px 0px 94px;
+  /* margin: 0px 0px 0px 88px; */
   border: 1px solid fuchsia;
 }
 .ul-m{
@@ -39,41 +45,61 @@ li.inl-m {
   padding: 10px 10px 10px 10px;
   margin: 4px 24px 10px 0px;
 }
+li.inl-m > a {
+  color: white;
+  text-decoration: none;
+}
 li:hover {
   display: inline-block;
   font-family: "PressStart2P";
   font-size: 14px;
   padding: 10px 10px 10px 10px;
   margin: 4px 24px 10px 0px;
-  backgraund:rgba(255,0,0,0.9);
+  /* backgraund:rgba(255,255,255,0.1); */
+  text-shadow: 6px 0px 10px white;
 }
 .first{
-  background-color: red;
+  display: flex;
+    background-color: #0E021D;
+    background-image: url('../images/the-seal-1_2-768x786.png');
+    background-image: url('../images/the-seal-1.svg');
+    background-repeat: no-repeat;
+    background-size: 45.5%;
+    background-position: 87% 75%;
+    height: 600px;
+    overflow: hidden;
 }
 .half30{
-  outline:1px solid black;
-  width:30vw;
-  height: 100vh;
-  width: 30vw;
-  margin-top: 6%;
-  margin-left: 11%;
+    position: absolute;
+    float: right;
+    outline: 1px solid black;
+    margin-top: 6%;
+    margin-left: 11%;
+    top: 100px;
+    left: 48%;
 }
 .half70{
-  display: inline-block;
-    position: absolute;
+    display: inline-block;
+    position: relative;
     width: 521px;
-    height: 112vh;
-    margin-top: 8px;
+    height: 430px;
+    margin-top: 79px;
     margin-left: 140px;
-    outline:10px solid black;
+    outline: 10px solid black;
 }
 .vroom{
 
 }
+h1, h2, h3, h5{
+  color: white;
+}
+h4{
+  color: black;
+}
 h2{
   font-family: "PressStart2P";
   font-size: 24px;
-  margin: 121px 24px 10px 8px;
+  margin: 121px 24px 18px 8px;
 }
 h3{
   font-family: "PressStart2P";
@@ -84,13 +110,44 @@ h3{
 
 }
 .varrow{
-display: inline-block;
-text-align: center;
-margin-left: 88px;
+  display: inline-block;
+  text-align: center;
+  text-align: center;
+  margin-left: 81px;
+  margin-top: 8px;
 }
-.wrapper{
+.girlmg{
+  height: 787px;
+  width: auto;
+  top: -68px;
+  position: absolute;
+  left: -107px;
+}
+.girltwo{
+height: 442px;
+  width: auto;
+  top: -59px;
+  position: absolute;
+  left: -156px;
+}
+section{
+  width: auto;
+  height: 700px;
+  border: 5px solid green;
+}
+.second{
+  background-color: white;
+  display: flex;
+}
+half21{
 
 }
-.main-menu{
+iframe , object, embed{
+  width: 625px;
+    height: 373px;
+    margin-top: 127px;
+    margin-left: 148px;
+}
+half22{
 
 }
