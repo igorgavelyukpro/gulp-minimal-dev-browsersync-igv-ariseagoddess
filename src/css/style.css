@@ -242,14 +242,31 @@ section{
   font-size:12px;
   line-height: 22px;
 }
-.numbered,.numbered-song{
-  display:inline-block;
-  height: 100px;
+.third-first{
+  display: inline-table;
 }
+
 .numbered{
+  height:200px;
   width: 100px;
+  font-family: "Sectar";
+  font-size: 50px;
+  display: inline-block;
+  align-content: last baseline;
+  padding-bottom: 50px;
+  outline:5px solid red;
 
 }
-.numbered-song{
+.third-numbered{
+  height:200px;
   width: 220px;
+  outline:5px solid blue;
+  display:block;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+.numbered-song{
+  height:200px;
+  width: 220px;
+  outline:5px solid black;
 }
