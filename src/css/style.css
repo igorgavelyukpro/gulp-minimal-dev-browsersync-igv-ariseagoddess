@@ -19,10 +19,12 @@
 body{
   margin:0;
   padding:0;
-  background-color:#0E021D;
+  overflow-x: hidden;
+  overflow-y: scroll; /* background-color:#0E021D; */
 }
 .wrapper{
-
+background-color:#0E021D;
+width: 100%;
 }
 .main-menu{
   background-color:#0E021D;
@@ -96,6 +98,8 @@ li:hover {
   font-size:60px;
 }
 .big-date{
+  /* display:none; */
+  visibility:hidden;
   font-size:50px;
   margin-left:25px;
 }
@@ -297,9 +301,164 @@ section{
 }
 .forth{
   height: 1750px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0E021D;
+  background-image: url('../images/the-seal-1_2-768x786.png');
+  filter:alpha(opacity=50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+  /* background-image: url('../images/the-seal-1.svg'); */
+  background-repeat: no-repeat;
+  background-size: 80.5%;
+  background-position: 50% 47%;
+  overflow: hidden;
   outline:5px solid green;
 }
-picture.forth{
+.half41{
+  flex-basis: 49%;
+}
+.half43{
+  flex-basis: 50%;
+}
+
+.half41,.half43{
+  box-sizing: border-box;
+  outline:5px solid red;
+  width: 555px;
+  height: 555px;
+}
+.half42,.half44{
+  flex-basis: 50%;
+  box-sizing: border-box;
+  outline:5px solid green;
+  width: 555px;
+  height: 555px;
+  /* width: 555px;
+  height: 430px;
+  margin-top: 71px;
+  margin-left: 53px; */
+}
+.forth picture{
   position: relative;
 
+}
+.blue-g{
+  top: 46px;
+  left: -235px;
+}
+.blue-g-girlmg{
+  height: 821px;
+  width: auto;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.red-g{
+  top: 74px;
+  left: 99px;
+}
+.red-g-girlmg{
+  height: 867px;
+  width: auto;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.forth44-half-r{
+  outline: 5px solid red;
+  width: 400px;
+  height: 300px;
+  margin-top: 248px;
+}
+.forth44-half-l{
+  outline: 5px solid red;
+  margin-left: auto;
+  width: 317px;
+  height: 400px;
+  margin-right: 207px;
+  margin-top: 242px;
+}
+.heading44{
+  color: white;
+    font-family: "PressStart2P";
+    font-size: 40px;
+    font-style: normal;
+    line-height: 18px;
+}
+.content44{
+  color: white;
+    font-family: "PressStart2P";
+    font-size: 14px;
+    line-height: 20px;
+}
+.fifth{
+  background-color: white;
+  height: 600px;
+  outline: 10px solid black;
+}
+.feed-wrap{
+  margin: 0 auto;
+  width: 600px;
+  max-width: 900px;
+  min-width: 300px;
+}
+.feedback{
+  display:relative;
+  margin-top:300px;
+  padding: 2em;
+}
+
+fieldset {
+  display:relative;
+  border: none;
+  padding: 1rem 0;
+  color: #000;
+  font-family: "PressStart2P";
+  font-size: 40px;
+  font-style: normal;
+  line-height: 18px;
+}
+label {
+  display: block;
+  font-size: 12px;
+  margin: 0.5rem 0;
+}
+
+input
+{
+  display: relative;
+  margin: 15px 0px 14px 0px;
+  width: 100%;
+  min-height: 2em;
+  height: 58px;
+}
+select
+{
+  display: relative;
+  margin: 15px 0px 14px 0px;
+  width: 30px;
+  min-height: 2em;
+  height: 58px;
+}
+#countries, #tel{
+display: block-inline;
+}
+#countries{
+  width:50px;
+}
+#tel{
+  width:80%;
+}
+#submit{
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  background-color:#0E021D;
+  font-family: "PressStart2P";
+  font-size: 20px;
+}
+.sixth{
+    background-color: green;
+    height: 1000px;
+    outline: 10px solid red;
 }
