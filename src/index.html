@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=768, initial-scale=1.0">
     <title>Business Website</title>
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
     <div class="wrapper">
       <header class="main-menu">
-        <nav >
+        <nav class="subscribe">
           <ul class="ul-m">
-            <li class="inl-m"><a href="#">Play</a></li>
-            <li class="inl-m"><a href="#">Teaser</a></li>
-            <li class="inl-m"><a href="#">Story</a></li>
-            <li class="inl-m"><a href="#">Character</a></li>
-            <li class="inl-m"><a href="#">Subscribe</a></li>
+            <a class="inl-m expra-padding" href="#play"><li class="inl-m">Play</li></a>
+            <a class="inl-m expra-padding" href="#teaser"><li class="inl-m">Teaser</li></a>
+            <a class="inl-m expra-padding" href="#story"><li class="inl-m">Story</li></a>
+            <a class="inl-m expra-padding" href="#character"><li class="inl-m">Character</li></a>
+            <a class="inl-m expra-padding" href="#subscribe"><li class="inl-m">Subscribe</li></a>
           </ul>
         </nav>
       </header>
@@ -37,15 +37,17 @@
       <section class="first">
         <div class="half70">
           <div class="first-top">
-            <b class="big-logo">"VROOM&nbsp;VROOM"</b>
-            <h2><span>Join</span> <span>the</span> <span>ride</span>:</h2>
+            <b class="big-logo invisible">"VROOM&nbsp;VROOM"</b>
+            <h2 class="invisible"><span>Join</span> <span>the</span> <span>ride</span>:</h2>
             <b class="big-date">10.10.2024</b>
             <h3><span>Let's</span> <span>play</span></h3>
+            <a href="#play">
             <picture class="varrow">
             <source alt="medium" srcset="../images/Group-3.png" media="(max-width: 650px)">
             <source alt="large" srcset="../images/Group-3.png" media="(max-width: 1850px)">
             <img src="../images/Group-3.png" alt="A description of the image.">
             </picture>
+            </a>
           </div>
         </div>
       </section>
@@ -58,7 +60,7 @@
           <iframe class="second-iframe" src="../gamefile/625x373.html" width="625" height="373"></iframe>
         </div>
         <div class="half22">
-          <h4 class="letsride">
+          <h4 id="play" class="letsride">
             <span><span class="letsride">Let's</span> <span class="letsride">Ride</span></span>
           </h4>
           <em class="heading22">Step 1:</em>
@@ -73,7 +75,7 @@
         <p class="content22">Wekly top scoring winners will receive exclusive vroom vroom gift set considting of a 20ml Active Glow Mist by Skincalories, limited edition vroom vroom action figure featuring Manga & Matilde G, as well as other collectibles</p>
         </div>
       </section>
-      <section class="third">
+      <section id="teaser" class="third">
         <div class="half31">
           <h5 class="vroomsection3heading">
             <span><span>Vroom</span> <span>Vroom</span></span>
@@ -81,7 +83,7 @@
           <p class="content33">An exclusive 8-bit music produced based on the song Vroom Vroom</p>
           <p class="content33">8-bit music, is the video game music of the 1990s or earlier. This type of music can be heard in games like Mario, Zelda, Contra and more</p>
         </div>
-        <div class="half32">
+        <div id="teaser" class="half32">
           <div class="third-first">
             <div class="numbered">
               <b class="third-numbered">1.</b>
@@ -113,7 +115,7 @@
         </div>
       </section>
       <section class="forth">
-        <div class="half41">
+        <div id="story" class="half41">
           <picture class="red-g">
           <source alt="medium" srcset="../images/Character-MG-Pose-757x1024.png" media="(max-width: 650px)">
           <source alt="large" srcset="../images/Character-MG-Pose-757x1024.png" media="(max-width: 1850px)">
@@ -134,8 +136,8 @@
             <p class="content44">Magda's encounter with Cho started her on a journey that led her to embracing her destiny as one of the bearer of the 5 ancient seals that connects Monty to Ancho & many other worlds such as Buyeo.</p>
           </div>
         </div>
-        <div class="half44">
-          <picture class="blue-g">
+        <div id="character" class="half44">
+          <picture  class="blue-g">
           <source alt="medium" srcset="../images/Girl-1_2-768x688.png" media="(max-width: 650px)">
           <source alt="large" srcset="../images/Girl-1_2-768x688.png" media="(max-width: 1850px)">
           <img class="blue-g-girlmg" src="../images/Girl-1_2-768x688.png" alt="A description of the image.">
@@ -145,7 +147,7 @@
       <section class="fifth">
         <div class="feed-wrap">
 <!-- top margin -->
-<form class="feedback">
+<form id="subscribe" class="feedback">
   <fieldset>
     <legend>Stay Tuned</legend>
       <label id="name-label" for="name">Name:
@@ -408,8 +410,11 @@
         <source alt="large" srcset="../images/bottom-text.png" media="(max-width: 1850px)">
         <img class="shins-img" src="../images/bottom-text.png" alt="A description of the image.">
         </picture>
+        <p class="last-left-copy-r">Copyright © 2024</p>
       </div>
       <div class="last-right">
+        <p class="last-right-text">Vroom Vroom is produced by Oliver Belvelin for The Kennel AB, written by Oliver Belvelin, Roland Lim, Daina Ariffin, Leatrix and Aisha Ayesha for The Kennel AB / Universal Music.</p>
+        <p class="last-right-text1">The rights of song and characters appearing in the music video is wholly owned by Brand Pathogen LLP</p>
 
       </div>
     </footer>
