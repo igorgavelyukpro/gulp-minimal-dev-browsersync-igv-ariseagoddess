@@ -14,6 +14,9 @@
        url('../fonts/PressStart2P-Regular.woff') format('woff'), */
   src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
 }
+.second-iframe{
+  overflow: hidden;
+}
 body{
   margin:0;
   padding:0;
