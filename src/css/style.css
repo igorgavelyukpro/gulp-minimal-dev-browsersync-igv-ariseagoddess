@@ -14,27 +14,7 @@
        url('../fonts/PressStart2P-Regular.woff') format('woff'), */
   src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
 }
-#countries, #tel{
-display: block-inline;
-}
-#countries{
-  width:22px;
-}
-.phone-wrap{
-  display: flex;
-}
-.phone-flags{
-  width: 70px;
-  height: 45px;
-  display: inline-flex;
-  margin: 16px 2px 0px;
-  border:1px solid black;
-  margin-top:5px;
-}
-#tel{
-  width:80%;
-}
-/* ---------------------------- */
+
 .second-iframe{
   overflow: hidden;
 }
@@ -623,7 +603,7 @@ width: 100%;
   /* (orientation: portrait) and (max-width: 750px) and */
 /* and (min-width:400px) */
 *{
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 .wrapper{
 background-color:#0E021D;
@@ -1770,7 +1750,7 @@ display: block-inline;
 
 @media screen and (max-width: 1370px) and (min-width: 1251px){
   *{
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
   }
   .wrapper{
   background-color:#0E021D;
@@ -3482,3 +3462,23 @@ display: block-inline;
     font-size: 18px;
   }
 }
+#countries, #tel{
+display: block-inline;
+}
+#countries{
+  width:22px;
+}
+.phone-wrap{
+  display: flex;
+}
+.phone-flags{
+  width: 76px;
+  height: 56px;
+  display: inline-flex;
+  margin: 16px 2px 0px;
+  border:1px solid black;
+}
+#tel{
+  width:80%;
+}
+/* ---------------------------- */
