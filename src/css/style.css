@@ -14,6 +14,27 @@
        url('../fonts/PressStart2P-Regular.woff') format('woff'), */
   src: url('../fonts/PressStart2P-Regular.ttf') format('truetype');
 }
+#countries, #tel{
+display: block-inline;
+}
+#countries{
+  width:22px;
+}
+.phone-wrap{
+  display: flex;
+}
+.phone-flags{
+  width: 70px;
+  height: 45px;
+  display: inline-flex;
+  margin: 16px 2px 0px;
+  border:1px solid black;
+  margin-top:5px;
+}
+#tel{
+  width:80%;
+}
+/* ---------------------------- */
 .second-iframe{
   overflow: hidden;
 }

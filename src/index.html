@@ -29,6 +29,8 @@
 	  <link rel="image_src" href="https://ariseagoddess.com/images/fbprew.jpg"/>
     <title>Ariseagoddess</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./flag-icons-main/css/flag-icons.min.css">
+    <!-- <link rel="stylesheet" href="./css/flag-icons-main/flag-icons.min.css"> -->
   </head>
   <body>
     <div class="wrapper">
@@ -182,8 +184,9 @@
       </label>
       <label id="number-label" for="tel">Phone:</label>
       <div class="phone-wrap">
-        <div class="phone-flags"></div>
-        <select id="countries" name="countries">
+        <div id="countryflag" class="phone-flags">
+        </div>
+        <select id="countries" onchange="selectFunc(value)" name="countries">
           <option value="999">(select one)</option>
           <option value="93">Afghanistan</option>
           <option value="355">Albania</option>
@@ -440,31 +443,60 @@
       </div>
     </footer>
   </body>
-<script> type="text/javascript" >
-window.addEventListener("load", (event) => {
-});
-var countriesid=document.getElementById("countries");
-var countryflag=document.getElementById("countryflag");
-var selectedValue = countriesid.options[countriesid.selectedIndex].value;
-var selectedText = countriesid.options[countriesid.selectedIndex].innerText;
-var usedClasses=[];
-function selectFunc(value){
-  selectedValue = countriesid.options[countriesid.selectedIndex].value;
-  selectedText = countriesid.options[countriesid.selectedIndex].innerText;
-  fetch('./country.json')
-  .then(response => response.json())
-  .then(result => {
-    for(unit of result){
-      if((selectedText) == unit.name ){
-          countryflag.classList.remove(usedClasses[0])
-          usedClasses.pop();
-          countryflag.classList.add('phone-flags')
-          countryflag.classList.add('fi-'+unit.code)
-          usedClasses.push('fi-'+unit.code)
-        break;
-      }
-    }
+  <script> type="text/javascript" >
+  window.addEventListener("load", (event) => {
+    console.log("page is fully loaded");
   });
-}
-</script>
+  var countriesid=document.getElementById("countries");
+  var countryflag=document.getElementById("countryflag");
+  // countriesid.addEventListener("onchange", (event) => {
+  var selectedValue = countriesid.options[countriesid.selectedIndex].value;
+  var selectedText = countriesid.options[countriesid.selectedIndex].innerText;
+  var usedClasses=[];
+  function selectFunc(value){
+    selectedValue = countriesid.options[countriesid.selectedIndex].value;
+    selectedText = countriesid.options[countriesid.selectedIndex].innerText;
+
+
+    // console.log(selectedText+"--------------");
+    fetch('./country.json')
+    .then(response => response.json())
+    .then(result => {
+
+      for(unit of result){
+        if((selectedText) == unit.name ){
+          // countryflag.removeClass(true);
+          // countryflag.element.removeClass();
+            // countryflag.removeClass(true);
+            // countryflag.classList.remove();
+            countryflag.classList.remove(usedClasses[0])
+            usedClasses.pop();
+            countryflag.classList.add('phone-flags')
+            countryflag.classList.add('fi-'+unit.code)
+            usedClasses.push('fi-'+unit.code)
+          // console.log(unit.code);
+          // console.log(selectedText);
+          break;
+        }
+      }
+      // countryflag.classList.remove('phone-flags');
+      // countryflag.classList.remove('fi-au');
+      // countryflag.classList.remove(usedClasses);
+    });
+    // .then(commits => alert());
+
+    console.log(selectedValue);
+      //console.log(event.target.options[event.target.selectedIndex].value);
+      // console.log(elem.selectedIndex);
+      // console.log(elem.value);
+      // console.log(elem[elem.selectedIndex].innerText);
+      // var mySelector=elem.selectedIndex;
+      // fetch('./country.json')
+      // .then(response => response.json())
+      // .then(commits => alert());
+    // });
+    // setInterval("selectFunc();",12000);
+  }
+
+  </script>
 </html>
