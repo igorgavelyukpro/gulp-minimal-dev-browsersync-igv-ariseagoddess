@@ -432,36 +432,10 @@
       <div class="last-right">
         <p class="last-right-text">Vroom Vroom is produced by Oliver Belvelin for The Kennel AB, written by Oliver Belvelin, Roland Lim, Daina Ariffin, Leatrix and Aisha Ayesha for The Kennel AB / Universal Music.</p>
         <p class="last-right-text1">The rights of song and characters appearing in the music video is wholly owned by Brand Pathogen LLP</p>
-
       </div>
     </footer>
   </body>
   <script> type="text/javascript" >
-  window.addEventListener("load", (event) => {
-
-  });
-  var countriesid=document.getElementById("countries");
-  var countryflag=document.getElementById("countryflag");
-  var selectedValue = countriesid.options[countriesid.selectedIndex].value;
-  var selectedText = countriesid.options[countriesid.selectedIndex].innerText;
-  var usedClasses=[];
-  function selectFunc(value){
-    selectedValue = countriesid.options[countriesid.selectedIndex].value;
-    selectedText = countriesid.options[countriesid.selectedIndex].innerText;
-    fetch('./country.json')
-    .then(response => response.json())
-    .then(result => {
-      for(unit of result){
-        if((selectedText) == unit.name ){
-            countryflag.classList.remove(usedClasses[0])
-            usedClasses.pop();
-            countryflag.classList.add('phone-flags')
-            countryflag.classList.add('fi-'+unit.code)
-            usedClasses.push('fi-'+unit.code)
-          break;
-        }
-      }
-    });
-  }
+window.addEventListener("load",(e=>{}));var countriesid=document.getElementById("countries"),countryflag=document.getElementById("countryflag"),selectedValue=countriesid.options[countriesid.selectedIndex].value,selectedText=countriesid.options[countriesid.selectedIndex].innerText,usedClasses=[];function selectFunc(e){selectedValue=countriesid.options[countriesid.selectedIndex].value,selectedText=countriesid.options[countriesid.selectedIndex].innerText,fetch("./country.json").then((e=>e.json())).then((e=>{for(unit of e)if(selectedText==unit.name){countryflag.classList.remove(usedClasses[0]),usedClasses.pop(),countryflag.classList.add("phone-flags"),countryflag.classList.add("fi-"+unit.code),usedClasses.push("fi-"+unit.code);break}}))}
   </script>
 </html>
