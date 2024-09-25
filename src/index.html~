@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1300px, initial-scale=1.0">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=0.3" /> -->
-	  <meta name="description" content="Arisea Goddess"/>
-	  <meta name="keywords" content="Arisea, Arisea Goddes, Arisea and Mechanic, Ari Racing"/>
+	  <meta name="description" content="Arisea Goddess by Oliver Belvelin"/>
+	  <meta name="keywords" content="Arisea, Arisea Goddes, Arisea and Mechanic, Ari Racing, Oliver Belvelin, The Kennel AB,Aisha Ayesha,Roland Lim, Daina Ariffin, Leatrix"/>
 	  <meta name="author" content="Igor Gavelyuk"/>
 	  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta name="author" content="Igor Gavelyuk"/>
 	  <meta property="og:type" content="article" />
 	  <meta property="og:title" content="Arisea, Arisea Goddes, Arisea and Mechanic, Ari Racing" />
-	  <meta property="og:description" content="Arisea, Arisea Goddes, Arisea and Mechanic, Ari Racing" />
-	  <meta property="og:image" content="https://ariseagoddess.com/images/fbprew.jpg" />
-	  <meta property="og:url" content="https://ariseagoddess.com" />
+	  <meta property="og:description" content="Arisea, Arisea Goddes, Arisea and Mechanic, Ari Racing,Oliver Belvelin, The Kennel AB,Aisha Ayesha,Roland Lim, Daina Ariffin, Leatrix" />
+	  <meta property="og:image" content="https://gulp-minimal-dev-browsersync-igv-ariseagoddess.vercel.app/images/fbprew.jpg" />
+	  <meta property="og:url" content="https://gulp-minimal-dev-browsersync-igv-ariseagoddess.vercel.app" />
 	  <meta property="og:site_name" content="ariseagoddess" />
-	  <meta property="article:published_time" content="2024-09-20T12:52:59+00:00" />
-	  <meta property="article:modified_time" content="2024-09-20T12:52:59+00:00" />
-	  <meta property="og:updated_time" content="2024-06-20T12:52:59+00:00" />
+	  <meta property="article:published_time" content="2024-09-25T22:52:59+00:00" />
+	  <meta property="article:modified_time" content="2024-09-25T22:52:59+00:00" />
+	  <meta property="og:updated_time" content="2024-09-25T22:52:59+00:00" />
 	  <!-- <meta property="fb:app_id" content="" /> -->
 	  <meta name="twitter:card" content="Preview" />
 	  <!-- <meta name="twitter:site" content="" /> -->
 	  <meta name="twitter:title" content="Arisea, Arisea Goddes, Arisea and Mechanic, Ari Racing" />
 	  <meta name="twitter:description" content="Arisea, Arisea Goddes, Arisea and Mechanic, Ari Racing" />
-	  <meta name="twitter:image" content="https://ariseagoddess.com/images/fbprew.jpg" />
+	  <meta name="twitter:image" content="https://gulp-minimal-dev-browsersync-igv-ariseagoddess.vercel.app/images/fbprew.jpg" />
 	  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="shortcut icon" type="image/png" href="https://ariseagoddess.com/images/favicon.png" />
-	  <link rel="image_src" href="https://ariseagoddess.com/images/fbprew.jpg"/>
+    <link rel="shortcut icon" type="image/png" href="https://gulp-minimal-dev-browsersync-igv-ariseagoddess.vercel.app/images/favicon.png" />
+	  <link rel="image_src" href="https://gulp-minimal-dev-browsersync-igv-ariseagoddess.vercel.app/images/fbprew.jpg"/>
     <title>Ariseagoddess</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <!-- <link rel="stylesheet" href="./flag-icons-main/css/flag-icons.min.css"> -->
   </head>
   <body>
