@@ -2259,12 +2259,16 @@ display: block-inline;
   .car-six{
 
   }
+  .sponsortop{
+    /* outline:1px solid black; */
+  }
   .sponsorlmg{
     position: absolute;
     top: -100px;
     left:0px;
     height: auto;
     width: 80%;
+    /* outline: 1px solid red; */
   }
   .sponsor-text-wrapper{
     margin:0 auto;
@@ -2306,6 +2310,7 @@ display: block-inline;
     left: 170px;
     width: 483px;
     height: auto;
+    /* outline:1px solid green; */
   }
   .last-left-copy-r{
     margin-top: 227px;
