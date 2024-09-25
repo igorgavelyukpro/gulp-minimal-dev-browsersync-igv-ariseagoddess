@@ -603,7 +603,7 @@ width: 100%;
   /* (orientation: portrait) and (max-width: 750px) and */
 /* and (min-width:400px) */
 *{
-  /* outline: 1px solid green; */
+  outline: 1px solid green;
 }
 .wrapper{
 background-color:#0E021D;
@@ -1176,9 +1176,9 @@ display: block-inline;
 @media screen and (max-width: 1099px) and (min-width: 773px){
   /* (orientation: portrait) and (max-width: 750px) and */
 /* and (min-width:400px) */
-/* *{
+*{
   outline: 1px solid black;
-} */
+}
 .wrapper{
 background-color:#0E021D;
 width: 100%;
@@ -1750,7 +1750,7 @@ display: block-inline;
 
 @media screen and (max-width: 1370px) and (min-width: 1251px){
   *{
-    /* outline: 1px solid blue; */
+
   }
   .wrapper{
   background-color:#0E021D;
@@ -1882,6 +1882,7 @@ display: block-inline;
     top: -68px;
     position: absolute;
     left: -107px;
+
   }
   .girltwo{
   height: 442px;
