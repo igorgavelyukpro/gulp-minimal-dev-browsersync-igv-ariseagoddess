@@ -29,6 +29,11 @@ body{
 background-color:#0E021D;
 width: 100%;
 }
+input{
+  font-family: "PressStart2P";
+  font-size: 25px;
+}
+
 --------------------PORTRAIT---------------------------------------
 @media screen and (max-width:773px) and (min-width: 200px){
   /* *{
@@ -318,6 +323,7 @@ width: 100%;
   }
   .inline33-buttons{
     /* flex-basis: 30% outline:5px solid orange; */
+      cursor: pointer;
       height: 38px;
       width: 160px;
       border: none;
@@ -479,6 +485,7 @@ width: 100%;
     width:80%;
   }
   #submit{
+    cursor: pointer;
     margin: 0 auto;
     width: 100%;
     color: white;
@@ -893,6 +900,7 @@ section{
 }
 .inline33-buttons{
   /* flex-basis: 30% outline:5px solid orange; */
+  cursor: pointer;
     height: 38px;
     width: 210px;
     border: none;
@@ -1054,6 +1062,7 @@ display: block-inline;
   width:80%;
 }
 #submit{
+  cursor: pointer;
   margin: 0 auto;
   width: 100%;
   color: white;
@@ -1468,6 +1477,7 @@ section{
 }
 .inline33-buttons{
   /* flex-basis: 30% outline:5px solid orange; */
+  cursor: pointer;
     height: 38px;
     width: 147px;
     border: none;
@@ -1629,6 +1639,7 @@ display: block-inline;
   width:80%;
 }
 #submit{
+  cursor: pointer;
   margin: 0 auto;
   width: 100%;
   color: white;
@@ -2039,6 +2050,7 @@ display: block-inline;
   }
   .inline33-buttons{
     /* flex-basis: 30% outline:5px solid orange; */
+    cursor:pointer;
       height: 38px;
       width: 210px;
       border: none;
@@ -2209,6 +2221,7 @@ display: block-inline;
     width:80%;
   }
   #submit{
+    cursor: pointer;
     margin: 0 auto;
     width: 100%;
     color: white;
@@ -2621,6 +2634,7 @@ display: block-inline;
   }
   .inline33-buttons{
     /* flex-basis: 30% outline:5px solid orange; */
+    cursor:pointer;
       height: 38px;
       width: 210px;
       border: none;
@@ -2782,6 +2796,7 @@ display: block-inline;
     width:80%;
   }
   #submit{
+    cursor: pointer;
     margin: 0 auto;
     width: 100%;
     color: white;
@@ -3188,6 +3203,7 @@ display: block-inline;
   }
   .inline33-buttons{
     /* flex-basis: 30% outline:5px solid orange; */
+    cursor:pointer;
       height: 38px;
       width: 160px;
       border: none;
@@ -3349,6 +3365,7 @@ display: block-inline;
     width:80%;
   }
   #submit{
+    cursor: pointer;
     margin: 0 auto;
     width: 100%;
     color: white;

@@ -28,7 +28,7 @@
     <link rel="shortcut icon" type="image/png" href="https://gulp-minimal-dev-browsersync-igv-ariseagoddess.vercel.app/images/favicon.png" />
 	  <link rel="image_src" href="https://gulp-minimal-dev-browsersync-igv-ariseagoddess.vercel.app/images/fbprew.png"/>
     <title>Ariseagoddess</title>
-    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="./flag-icons-main/css/flag-icons.min.css"> -->
   </head>
   <body>
