@@ -10,7 +10,6 @@
        url('../fonts/PressStart2P-Regular.woff') format('woff'),
        url('../fonts/PressStart2P-Regular.ttf') format('truetype');
 }
-
 .second-iframe{
   overflow: hidden;
 }
