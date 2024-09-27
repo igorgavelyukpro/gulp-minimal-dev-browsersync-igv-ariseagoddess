@@ -93,7 +93,7 @@ input{
   .first{
     display: flex;
       background-color: #0E021D;
-      /* background-image: url('../images/the-seal-1_2-768x786.png'); */
+      /* background-image: url('../images/the-seal-1_2-768x786.avif'); */
       background-image: url('../images/the-seal-1.svg');
       background-repeat: no-repeat;
       background-size: 45.5%;
@@ -335,7 +335,7 @@ input{
     display: flex;
     flex-wrap: wrap;
     background-color: #0E021D;
-    background-image: url('../images/the-seal-1_2-768x786.png');
+    background-image: url('../images/the-seal-1_2-768x786.avif');
     filter:alpha(opacity=50);
     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
     /* background-image: url('../images/the-seal-1.svg'); */
@@ -664,7 +664,7 @@ li:hover {
 .first{
   display: flex;
     background-color: #0E021D;
-    /* background-image: url('../images/the-seal-1_2-768x786.png'); */
+    /* background-image: url('../images/the-seal-1_2-768x786.avif'); */
     background-image: url('../images/the-seal-1.svg');
     background-repeat: no-repeat;
     background-size: 45.5%;
@@ -912,7 +912,7 @@ section{
   display: flex;
   flex-wrap: wrap;
   background-color: #0E021D;
-  background-image: url('../images/the-seal-1_2-768x786.png');
+  background-image: url('../images/the-seal-1_2-768x786.avif');
   filter:alpha(opacity=50);
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
   /* background-image: url('../images/the-seal-1.svg'); */
@@ -1240,7 +1240,7 @@ li:hover {
 .first{
   display: flex;
     background-color: #0E021D;
-    /* background-image: url('../images/the-seal-1_2-768x786.png'); */
+    /* background-image: url('../images/the-seal-1_2-768x786.avif'); */
     background-image: url('../images/the-seal-1.svg');
     background-repeat: no-repeat;
     background-size: 45.5%;
@@ -1489,7 +1489,7 @@ section{
   display: flex;
   flex-wrap: wrap;
   background-color: #0E021D;
-  background-image: url('../images/the-seal-1_2-768x786.png');
+  background-image: url('../images/the-seal-1_2-768x786.avif');
   filter:alpha(opacity=50);
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
   /* background-image: url('../images/the-seal-1.svg'); */
@@ -1815,7 +1815,7 @@ display: block-inline;
   .first{
     display: flex;
       background-color: #0E021D;
-      /* background-image: url('../images/the-seal-1_2-768x786.png'); */
+      /* background-image: url('../images/the-seal-1_2-768x786.avif'); */
       background-image: url('../images/the-seal-1.svg');
       background-repeat: no-repeat;
       background-size: 45.5%;
@@ -2062,7 +2062,7 @@ display: block-inline;
     display: flex;
     flex-wrap: wrap;
     background-color: #0E021D;
-    background-image: url('../images/the-seal-1_2-768x786.png');
+    background-image: url('../images/the-seal-1_2-768x786.avif');
     filter:alpha(opacity=50);
     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
     /* background-image: url('../images/the-seal-1.svg'); */
@@ -2400,7 +2400,7 @@ display: block-inline;
   .first{
     display: flex;
       background-color: #0E021D;
-      /* background-image: url('../images/the-seal-1_2-768x786.png'); */
+      /* background-image: url('../images/the-seal-1_2-768x786.avif'); */
       background-image: url('../images/the-seal-1.svg');
       background-repeat: no-repeat;
       background-size: 45.5%;
@@ -2646,7 +2646,7 @@ display: block-inline;
     display: flex;
     flex-wrap: wrap;
     background-color: #0E021D;
-    background-image: url('../images/the-seal-1_2-768x786.png');
+    background-image: url('../images/the-seal-1_2-768x786.avif');
     filter:alpha(opacity=50);
     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
     /* background-image: url('../images/the-seal-1.svg'); */
@@ -2973,7 +2973,7 @@ display: block-inline;
   .first{
     display: flex;
       background-color: #0E021D;
-      /* background-image: url('../images/the-seal-1_2-768x786.png'); */
+      /* background-image: url('../images/the-seal-1_2-768x786.avif'); */
       background-image: url('../images/the-seal-1.svg');
       background-repeat: no-repeat;
       background-size: 45.5%;
@@ -3215,7 +3215,7 @@ display: block-inline;
     display: flex;
     flex-wrap: wrap;
     background-color: #0E021D;
-    background-image: url('../images/the-seal-1_2-768x786.png');
+    background-image: url('../images/the-seal-1_2-768x786.avif');
     filter:alpha(opacity=50);
     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
     /* background-image: url('../images/the-seal-1.svg'); */
